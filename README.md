@@ -1,6 +1,6 @@
-# safe_backup_rust 
+# SafeBackup (Rust)
 
-A safe, **pure-Rust** command-line tool for backing up, restoring, deleting and listing files.
+A safe, **Rust** command-line tool for backing up, restoring, deleting and listing files.
 No Makefile — use `cargo` for build/test/run.
 
 ## Features
@@ -54,3 +54,4 @@ safe_backup_rust/
 ## Notes
 - By default, backups are stored under `./backups` within the current working directory.
 - You can override the backup directory with `--backup-dir <DIR>` in any command.
+
