@@ -1,0 +1,25 @@
+[package]
+name = "safe_backup_rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "Pure Rust, secure backup/restore/delete CLI (no Makefile)."
+license = "MIT"
+repository = "https://github.com/your/repo"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+walkdir = "2.5"
+sha2 = "0.10"
+hex = "0.4"
+time = { version = "0.3", features = ["formatting"] }
+fs-err = "2.11"
+tempfile = "3.10"
+path-absolutize = "3.1"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.1"
+tempfile = "3.10"
