@@ -1,0 +1,2 @@
+[2025-08-14T03:36:05.17977Z] backup: /Users/karinhomolova/Downloads/safe_backup_pure_rust 3/data_test/data.txt -> /Users/karinhomolova/Downloads/safe_backup_pure_rust 3/backups/data.txt.bak
+[2025-08-14T03:50:09.067102Z] backup: /Users/karinhomolova/safe_backup_rust/data_test/data.txt -> /Users/karinhomolova/safe_backup_rust/backups/data.txt.bak
